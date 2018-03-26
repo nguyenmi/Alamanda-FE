@@ -1,0 +1,30 @@
+
+.footer-container {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  .body-footer {
+    background: $bg-footer;
+    width: 100%;
+    padding: 12px;
+  }
+  .text-footer {
+    font-size: 15px;
+    color: $color-white;
+    display: inline;
+    .content-textfooter {
+      display: inline;
+    }
+  }
+  .icon-footer {
+    float: right;
+    cursor: pointer;
+    color: $rgba-white;
+    &:hover {
+      color: $color-white;
+    }
+  }
+  .stl-icon {
+    margin: 0px 8px;
+  }
+}

@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- include head.html -->
+    @@include('../layouts/head.html', {
+      "title": "HTML Boilerplate"
+    })
+    <!-- include styles.html -->
+    @@include('../layouts/styles.html')
+  </head>
+  <body>
+    @@include('../layouts/loadding.html')
+    <div class="wrapper">
+      <!-- include header.html -->
+      @@include('../layouts/header.html')
+
+      <!-- include banner.html -->
+      @@include('../partials/banner.html')
+
+      <section class="main-container">
+          <div id="a" class="block-container">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="center">
+
+                <div class="item-gallery">
+                  <div class="gallery-slider" style="background-image: url('../../images/gallery/bgb2.png')">
+                    <div class="body-gallery">
+                      <div class="item-villa animation w3-animate-zoom" style="background-image: url(../../images/gallery/bgc5.png)">
+                        <h3 class="title-villa">
+                          <a class="txt-link" href="/detailgallery.html">Villas Sen</a>
+                        </h3>
+                      </div>
+                      <div class="item-villa animation w3-animate-zoom" style="background-image: url(../../images/gallery/bgb.png)">
+                        <h3 class="title-villa">
+                          <a href="/detailgallery.html" class="txt-link">Villas Mai</a>
+                        </h3>
+                      </div>
+                      <div class="item-villa animation w3-animate-zoom" style="background-image: url(../../images/gallery/bgc3.png)">
+                        <h3 class="title-villa">
+                          <a href="/detailgallery.html" class="txt-link">Villas Anh</a>
+                        </h3>
+                      </div>
+
+                      <div class="item-villa animation w3-animate-zoom" style="background-image: url(../../images/gallery/bgc3.png)">
+                        <h3 class="title-villa">
+                          <a href="/detailgallery.html" class="txt-link">Bedroom</a>
+                        </h3>
+                      </div>
+
+                      <div class="item-villa animation w3-animate-zoom" style="background-image: url(../../images/gallery/bgc3.png)">
+                        <h3 class="title-villa">
+                          <a href="/detailgallery.html" class="txt-link">Living area</a>
+                        </h3>
+                      </div>
+                      <div class="item-villa animation w3-animate-zoom" style="background-image: url(../../images/gallery/bgc3.png)">
+                        <h3 class="title-villa">
+                          <a href="/detailgallery.html" class="txt-link">Our awesome services</a>
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+      </section>
+      <script>
+
+      </script>
+      <!-- include footer.html -->
+      @@include('../layouts/footer.html')
+    </div>
+    <!-- include scripts.html -->
+    @@include('../layouts/scripts.html')
+  </body>
+</html>

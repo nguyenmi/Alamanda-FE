@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- include head.html -->
+    @@include('../layouts/head.html', {
+      "title": "HTML Boilerplate"
+    })
+    <!-- include styles.html -->
+    @@include('../layouts/styles.html')
+  </head>
+  <body>
+    @@include('../layouts/loadding.html')
+    <div class="wrapper">
+      <!-- include header.html -->
+      @@include('../layouts/header.html')
+
+      <!-- include banner.html -->
+      @@include('../partials/banner.html')
+
+      <section class="main-container">
+          <div id="a" class="block-container">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="center">
+                <div class="item-home">
+                  <div class="item-slider">
+                    <div class="bg-slider " style="background-image: url('../../images/home/slide1.png')">
+                    </div>
+                    <div class="title-sliderhome ">
+                      <h3 class="title-villas animation w3-animate-zoom effect-one">VILLAS ANH</h3>
+                      <p class="text-villa animation w3-animate-left effect-two">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>
+                      <div class="view-more animation w3-animate-right effect-two">
+                        <div class="content-viewmore ">
+                          <p class="title-viewore">View more</p>
+                          <div class="">
+                            <span class="fa fa-arrow-right icon-viewmore"></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item-slider">
+                    <div class="bg-slider" style="background-image: url('../../images/home/slide2.png')">
+                    </div>
+                    <div class="title-sliderhome ">
+                      <h3 class="title-villas animation w3-animate-zoom effect-one">VILLAS MAI</h3>
+                      <p class="text-villa animation w3-animate-left effect-two">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>
+                      <div class="view-more animation w3-animate-right effect-two">
+                        <div class="content-viewmore ">
+                          <p class="title-viewore">View more</p>
+                          <div class="">
+                            <span class="fa fa-arrow-right icon-viewmore"></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item-slider">
+                    <div class="bg-slider" style="background-image: url('../../images/home/slide3.png')">
+                    </div>
+                    <div class="title-sliderhome ">
+                      <h3 class="title-villas animation w3-animate-zoom effect-one">ALLAMANDA ESTATE</h3>
+                      <p class="text-villa animation w3-animate-left effect-two">Between sky and earth, in the middle of rice paddies, our charming eco lodge Allamanda Estate is waiting for you.</p>
+                      <div class="view-more animation w3-animate-right effect-two">
+                        <div class="content-viewmore ">
+                          <p class="title-viewore">View more</p>
+                          <div class="">
+                            <span class="fa fa-arrow-right icon-viewmore"></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+      </section>
+      <script>
+
+      </script>
+      <!-- include footer.html -->
+      @@include('../layouts/footer.html')
+    </div>
+    <!-- include scripts.html -->
+    @@include('../layouts/scripts.html')
+  </body>
+</html>
